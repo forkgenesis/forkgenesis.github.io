@@ -1,0 +1,131 @@
+@font-face {
+	font-family: 'Minecraft Title';
+	src: url('../fonts/minecraft_title.eot');                                       /* IE 9 Compatibility Mode */
+	src: url('../fonts/minecraft_title.eot?#iefix') format('embedded-opentype'),    /* IE < 9 */
+		url('../fonts/minecraft_title.woff2') format('woff2'),                      /* Super Modern Browsers */
+		url('../fonts/minecraft_title.woff') format('woff'),                        /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/minecraft_title.ttf') format('truetype'),                     /* Safari, Android, iOS */
+		url('../fonts/minecraft_title.svg#Minecraft-Title-Cyrillic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'Minecraft';
+	src: url('../fonts/minecraft.eot');                                             /* IE 9 Compatibility Mode */
+	src: url('../fonts/minecraft.eot?#iefix') format('embedded-opentype'),          /* IE < 9 */
+		url('../fonts/minecraft.woff2') format('woff2'),                            /* Super Modern Browsers */
+		url('../fonts/minecraft.woff') format('woff'),                              /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/minecraft.ttf') format('truetype'),                           /* Safari, Android, iOS */
+		url('../fonts/minecraft.svg#Minecraft') format('svg');                      /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Тело сайта */
+body {
+    background-color:#202428;
+    background-size: cover;
+    width: 1160px;
+    margin:0 auto;
+}
+/* Хедер сайта */
+header {
+    text-align: center
+}
+.logo {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+ul.menu {
+    display: inline-block;
+    font-family: 'Minecraft';
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 15px;
+    li {
+        float: left;
+        a {
+            text-decoration: none;
+            color: #cfcfcf;
+            border-top: 2px solid #ffffff;
+            padding: 5px 15px 5px 15px;
+            background: #26282f;
+            margin-left: 1px;
+            white-space: nowrap;
+            &:hover {
+                color: #f6e743;
+                background: #8f289d;
+            }
+        }
+    }
+}
+
+
+/* Кастомизация текста */
+main {
+    font-family: 'Roboto', sans-serif;
+    color: #cfcfcf;
+    font-size: 24px;
+    font-weight: 400;
+    &.thicc {
+        font-weight: 600;
+    }
+}
+h1 {
+    font-family: 'Minecraft Title';
+    color: #f8ce14;
+    font-weight: 100;
+    font-size: 40px;
+    a {
+        text-decoration-color: #f8ce14;
+        color: #f8ce14;
+    }
+}
+a {
+    color: #a9208b;
+}
+code {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Кастомизация фото */
+.screenshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 750px;
+}
+
+/* Кастомные пронумерованные и нет списки */
+ul.faq {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 30px;
+    list-style:none;
+    li ul {
+        font-weight: 300;
+        font-size: 23px;
+        margin-bottom: 10px;
+        list-style:none;
+    }
+}
+
+ol {
+    font-weight: 400;
+    font-size: 24px;
+    li {
+        margin-bottom: 20px;
+    }
+}
