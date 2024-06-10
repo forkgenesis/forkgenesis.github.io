@@ -30,7 +30,7 @@
 body {
     background-color:#202428;
     background-size: cover;
-    width: 1160px;
+    width: 1360px;
     margin:0 auto;
 }
 /* Хедер сайта */
@@ -42,7 +42,7 @@ header {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 50%;
 }
 ul.menu {
     display: inline-block;
@@ -128,4 +128,15 @@ ol {
     li {
         margin-bottom: 20px;
     }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.wrapper2 {
+    position: absolute;
+    left:0;
 }

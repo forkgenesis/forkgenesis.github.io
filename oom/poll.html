@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>OriginsOnMars - Голосование за моды</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+        <script src="https://accounts.google.com/gsi/client" async></script>
+        <script src="poll.js" async></script>
+    </head>
+<body>
+<main>
+    <!-- Ой пожалуйста-пожалуйста не используйте мой ключ приложения Google в злоумышленных целях 👉👈 -->
+    <div id="g_id_onload"
+        data-client_id="598166988341-1anigiad990v2olugeigt9muakqucbj3.apps.googleusercontent.com"
+        data-login_uri="https://alexkolodchuk.github.io/oom/poll.html"
+        data-auto_prompt="false"
+        data-callback="handleCredentialResponse">
+    </div>
+
+    <header style="margin-bottom:30px;">
+        <div class="wrapper">
+            <img src="resources/origins_on_mars_logo.png" alt="Логотип OriginsOnMars" class="logo">
+            <div class="wrapper2">
+                <div class="g_id_signin"
+                    data-type="standard"
+                    data-size="large"
+                    data-theme="filled_blue"
+                    data-text="sign_in_with"
+                    data-shape="rectangular"
+                    data-logo_alignment="left"
+                    data-locale="ru_RU">
+                    <!-- style="margin-left:auto;margin-right:auto;width: 50%;"> -->
+                </div>
+                <p id="output" style="font-size:16px;font-weight:500;color:chartreuse"></p>
+            </div>
+        </div>
+        <ul class="menu">
+            <li><a href="/oom">Главная</a></li>
+            <li><a href="poll.html">Голосование за моды</a></li>
+            <li><a href="installing.html">Установка</a></li>
+            <li><a href="updating.html">Обновление</a></li>
+            <li><a href="faq.html">Частые вопросы</a></li>
+            <li><a href="server.html">Как сделать сервер</a></li>
+        </ul>
+    </header>
+
+    <p>Здесь <b>планируется</b> проводить голосование. Здесь будет вывешен список всех доступным на 1.20.1 модов с сортировкой, и каждый сможет заходить через свой Google аккаунт и голосовать.</p>
+    </p>От вас, если вы участник OriginsOnMars, требуется отправить мне на <a href="mailto:forkgenesis@gmail.com">почту</a> письмо, <p>чтобы я вашу почту добавил в вайтлист.</p>
+    <p>А пока можете поиграться с кнопочкой входа сверху!</p>
+</main>
+</body>
+</html>
