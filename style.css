@@ -1,0 +1,145 @@
+
+body {
+    background-color:#202428;
+    background-size: cover;
+    width: 1260px;
+    margin:0 auto;
+}
+header {
+    background-color: rgba(49, 54, 54, 0);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#container {
+    text-align: center;
+    margin-top: 10px;
+}
+    #container ul {    
+        display: inline-block;
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 24px;
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+    }
+
+    #container ul li {
+        display: block;
+        position: relative;
+        float: left;
+        text-align: center;
+    }
+
+    #container ul li a {
+        display: block;
+        text-decoration: none;
+        color: #cfcfcf;
+        border-top: 1px solid #ffffff;
+        padding: 5px 15px 5px 15px;
+        background: #26282f;
+        margin-left: 1px;
+        white-space: nowrap;
+    }
+
+    #container ul li a:hover {
+        background: #3f0f46;
+    }
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #cfcfcf;
+    font-size: 26px;
+    text-align: center;
+}
+
+a {
+    color: #a9208b;
+}
+
+
+#index {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Minecraft Title Cyrillic Regular";
+    font-weight: 5;
+    font-style: normal;
+    color: #f8ce14;
+    font-size: 40px;
+}
+
+.screenshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 750px;
+}
+
+#faq ul {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 27px;
+    font-style: normal;
+    color: #cfcfcf;
+    margin-bottom: 20px;
+}
+#faq ul li ul {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 23px;
+    font-style: normal;
+    color: #cfcfcf;
+}
+
+ol {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    color: #cfcfcf;
+}
+
+ol li {
+    margin-bottom: 20px;
+}
+
+#text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 23px;
+    font-style: normal;
+    color: #cfcfcf;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#warning {
+    background-color: crimson;
+}
