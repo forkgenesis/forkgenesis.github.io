@@ -1,50 +1,65 @@
 @font-face {
-    font-family: 'JetBrains Mono';
-    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+    font-family: 'NT Somic';
+    src: url('resources/NT Somic.ttf') format('truetype');
 }
-
-/* Тело сайта */
 body {
-    background-color:#202428;
-    background-size: cover;
-    width: 1160px;
-    margin:0 auto;
+    height: 100%;
+    margin: 0px;
+    font-family: 'NT Somic';
+    font-size: 30px;
+    background-color: rgb(20, 20, 35);
+    color:beige;
 }
-
-/* Хедер сайта */
-header {
-    text-align: center
+img {
+    height: 75px;
+    width: 75px;
 }
-.logo {
-    display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-main {
-    font-family: 'JetBrains Mono', 'Roboto';
-    color: #cfcfcf;
-    font-size: 24px;
-    font-weight: 400;
-    &.thicc {
-        font-weight: 600;
-    }
-    text-align: center;
-}
-
-/* Классы div для разделения сайта на 1 колонку (кол-во колонок равно кол-ву проектов на сайте) */
-.column {
-    float: left;
+#intro {
+    margin-top: 5%;
     width: 100%;
 }
-.row:after {
-    content: '';
-    display: table;
-    clear: both;
+#intro-content {
+    width: 80%;
+    flex-flow: column;
+}
+#textbox {
+    width: 60%;
+}
+#links-desc {
+    width: 100%;
+}
+.socials {
+    flex-flow: row;
+    flex-grow: 5;
+}
+.works {
+    flex-flow: row;
+    flex-grow: 3;
+}
+#links {
+    width: 100%;
+    flex-flow: row;
+    div {
+        flex-flow: row;
+        div {
+            margin: 10px;
+        }
+    }
+}
+p {
+    text-align: center;
+    margin-top: 0%;
+}
+#language {
+    margin-top: 20px;
+    font-size: 23px;
+    a {
+        color:darkolivegreen;
+        font-weight: bold;
+    }
 }
