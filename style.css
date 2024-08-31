@@ -2,13 +2,20 @@
     font-family: 'NT Somic';
     src: url('resources/NT Somic.ttf') format('truetype');
 }
-body {
+html {
+    display: table;
     height: 100%;
-    margin: 0px;
+    margin: auto;
+}
+body {
+    display: table-cell;
+    height: 100%;
+    margin: auto;
     font-family: 'NT Somic';
     font-size: 30px;
     background-color: rgb(20, 20, 35);
     color:beige;
+    vertical-align: middle;
 }
 img {
     height: 75px;
@@ -20,7 +27,6 @@ img {
     justify-content: center;
 }
 #intro {
-    margin-top: 5%;
     width: 100%;
 }
 #intro-content {
