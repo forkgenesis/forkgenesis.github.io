@@ -5,12 +5,12 @@
 html {
     display: table;
     height: 100%;
-    margin: auto;
+    margin: 0px;
 }
 body {
     display: table-cell;
     height: 100%;
-    margin: auto;
+    margin: 0px;
     font-family: 'NT Somic';
     font-size: 30px;
     background-color: rgb(20, 20, 35);
